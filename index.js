@@ -1,3 +1,5 @@
+/////practice
+
 /*let string = "string";
 const edis = "edis";
 let sentence = "Hello " + "Vicky";
@@ -38,6 +40,9 @@ console.log(age =< 17);*/
 //console.log(age == 16 | | age == 17); //if age equals 16 OR age == 17 then true
 //console.log(age == 16 && name === "Angel");
 
+/////challenges
+
+/*
 let light = light;
 if (light === "green"){
     console.log("go");
@@ -75,3 +80,84 @@ else if (temp > 72 && temp <= 76){
 else{
     console.log("hot");
 }
+*/
+
+/////functions
+/*function test() {
+    console.log("TEST");
+}
+test(); */
+
+/*
+function argument (name1, name2){
+    console.log(name1, name2);
+}
+argument("val", "eric");
+*/
+
+/*
+const hello = function(){
+    alert("hello");
+};
+const bye = function(){
+    alert("bye");
+};
+
+const beatles = function(){
+    hello();
+    bye();
+    hello();
+    bye();
+};
+beatles();
+*/
+
+/////scope
+
+/*
+const name = "michael y";
+function makeFunc(){
+    const name = "sarah";
+    function displayName(){
+        console.log(name);
+    }
+    displayName();
+}
+
+makeFunc();
+*/
+
+/*
+function makeFunc(){
+    const name = "sun";
+    function displayName(){
+        alert(name);
+    }
+return displayName;
+}
+
+const myFunc = makeFunc();
+myFunc();
+*/
+
+/////arrays
+const names = [
+    "Diego", 
+    "Frid", 
+    "Christian", 
+    "Valerie", 
+    "Haoran", 
+    "Brian", 
+    "Caroline"];
+//names.push("Caroline");
+names.forEach(el => console.log(el));
+/*name.filter();
+*/
+
+/////spread operator
+const numbers = [1, 2, 3];
+
+const add = function(x, y, z){
+    return x + y + z;    
+};
+console.log(add(...numbers));
