@@ -140,6 +140,7 @@ const myFunc = makeFunc();
 myFunc();
 */
 
+/*
 /////arrays
 const names = [
     "Diego", 
@@ -155,9 +156,26 @@ names.forEach(el => console.log(el));
 */
 
 /////spread operator
+/*
 const numbers = [1, 2, 3];
 
 const add = function(x, y, z){
     return x + y + z;    
 };
 console.log(add(...numbers));
+*/
+
+/////challenge1
+let students = ["Riya". "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+let min = 5;
+if(min < 5)
+    console.log("filter");
+students.filter();
+
+
+/////challenge2
+let students = ["Riya". "Omor", "Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+const students = "Junshen";
+
+let funny = ["Alan", "Savva"];
+students.push("Alan" + "Savva");
